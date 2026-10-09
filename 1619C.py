@@ -118,7 +118,6 @@ def solve():
             s = int(S_str[i - 1:i + 1])
             b = s - a
 
-            # Таня складывала цифры, поэтому b должно быть строго от 0 до 9
             if 0 <= b <= 9:
                 res_digits.append(str(b))
                 i -= 2
